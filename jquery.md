@@ -1,4 +1,4 @@
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src="/main.js"></script>
  
 <div id="text"></div>
