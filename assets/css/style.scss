@@ -47,11 +47,41 @@ h1,h2,h3,h4,h5,h6{
     color: #222;
 }
 
-
 .main-content p a{
     font-size:2em;
     color:#000;
     font-weight:600;
     position:absolute;
     top:25px;
+    text-decoration:none;
+}
+
+.main-content p a:hover{
+    text-decoration:none;
+}
+
+
+.main-content table{
+    position:absolute;
+    top:65px;
+    margin:0 auto;
+    right:140px;
+    max-width: 300px;
+}
+
+.main-content table a{
+    color:#000;
+    border:none;
+    font-size:15px;
+    font-weight:500;
+}
+
+.main-content table th, .main-content table td{
+    border:none;
+}
+
+.main-content table td:first-child a::after{
+    content:"|";
+    position:relative;
+    left:16px;
 }
