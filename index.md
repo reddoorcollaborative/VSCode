@@ -1,4 +1,4 @@
-## VSCode About & FAQs
+## About Us
 
 Lorem ipsum dolor sit amet 
 
