@@ -86,6 +86,33 @@ h1,h2,h3,h4,h5,h6{
     left:16px;
 }
 
+.main-content table tr:first-child{
+    position: absolute;
+    top: 22px;
+    margin: 0 auto;
+    right: 200px;
+    max-width: 300px;
+}
+
+.main-content table td:first-child a::after{
+    content:none;
+}
+
+.main-content table tr:last-child td:first-child a::after{
+    content:"|";
+}
+
+
+.main-content table tr:last-child{
+        position: absolute;
+    top: 65px;
+    margin: 0 auto;
+    right: 140px;
+    max-width: 300px;
+}
+
+
+
 
 @media(max-width:768px){
     .main-content table{
