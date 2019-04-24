@@ -116,10 +116,10 @@ h1,h2,h3,h4,h5,h6{
     right: 40px;
 }
     
-    .main-content table tr:last-child{
-    
+.main-content table tr:first-child {
+    top: 65px;
+    right: 0px;
     }
-    
     .main-content table tr:first-child{
         
     }
