@@ -121,12 +121,12 @@ h1,h2,h3,h4,h5,h6{
 @media(max-width:1024px){
 
 .main-content table tr:last-child{
-    top:69px;
-    right: 140px;
+    top:59px;
+    right: 123px;
 }
     
 .main-content table tr:first-child {
-    top: 69px;
+    top: 59px;
     right: 0px;
     }
     .main-content table tr:first-child{
@@ -141,6 +141,12 @@ h1,h2,h3,h4,h5,h6{
     .main-content table{
     right:40px;
 }
+    .main-content table tr{
+        padding:0;
+    }
+    .main-content table tr a{
+        font-size:12px;
+    }
     .main-content p a{
     font-size:24px;
 }
