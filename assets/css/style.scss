@@ -97,7 +97,7 @@ h1,h2,h3,h4,h5,h6{
     position: absolute;
     top: 26px;
     margin: 0 auto;
-    right: 200px;
+    right: 355px;
     max-width: 300px;
 }
 
@@ -115,19 +115,19 @@ h1,h2,h3,h4,h5,h6{
     top: 26px;
     margin: 0 auto;
     right: 375px;
-    max-width: 300px;
+    max-width: 115px;
 }
 
 @media(max-width:1024px){
 
 .main-content table tr:last-child{
     top:59px;
-    right: 123px;
+    right: 0px;
 }
     
 .main-content table tr:first-child {
     top: 59px;
-    right: 0px;
+    right: 125px;
     }
     .main-content table tr:first-child{
         
