@@ -2,7 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap');
 
 .page-header h1,
 .page-header h2,
@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6{
 .main-content p a{
     font-size:2em;
     color:#000;
-    font-weight:600;
+    font-weight:700;
     position:absolute;
     top:25px;
     text-decoration:none;
