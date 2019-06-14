@@ -93,12 +93,13 @@ h1,h2,h3,h4,h5,h6{
 
 .main-content table th, .main-content table td{
     border:none;
+    padding: 8px 6px;
 }
 
 .main-content table td:first-child a::after{
     content:"|";
     position:relative;
-    left:16px;
+    left:8px;
 }
 
 .main-content table tr:last-child{
@@ -115,7 +116,7 @@ h1,h2,h3,h4,h5,h6{
 .main-content table tr:last-child td:nth-child(2) a::after {
     content: "|";
     position: relative;
-    left: 16px;
+    left: 8px;
 }
 
 .main-content table tr:first-child {
